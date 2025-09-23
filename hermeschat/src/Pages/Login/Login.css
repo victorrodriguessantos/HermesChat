@@ -1,0 +1,76 @@
+:root {
+    background-color: #1e293b;
+    font-family: system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', sans-serif;
+}
+
+.container-login {
+    width: 700px;
+    height: 500px;
+    background-color: #334155;
+    justify-items: center;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+.container-login form {
+    display: grid;
+    width: 60%;
+}
+
+.container-login h1 {
+    padding: 10px;
+}
+
+.container-login p {
+    padding: 10px;
+}
+
+.container-login input {
+    display: flex;
+    background-color: #475569;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: aliceblue !important;
+    font: bold;
+    font-size: larger;
+    outline: none;
+    padding: 8px;
+}
+
+.container-login button {
+    margin-top: 30px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #0182fa;
+    color: aliceblue;
+    font: bold;
+    font-size:larger;
+    border:none;
+}
+
+.container-login button:hover {
+    background-color: #0668c4;
+}
+
+.container-login span{
+    color: #ffa600;
+    font: bold;
+    font-size: larger;
+}
+
+.container-login a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+.container-login a:hover {
+    color: #b38022; 
+}
