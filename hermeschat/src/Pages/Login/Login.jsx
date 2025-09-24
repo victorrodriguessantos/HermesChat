@@ -1,4 +1,4 @@
-import Modal from '../../components/Modal/Modal'
+import Modal from '../../components/Register/Register'
 import { useState } from 'react'
 import './Login.css'
 
@@ -11,7 +11,7 @@ function Login() {
             <h1>Hermes Chat</h1>
             <p>Faça o login para entrar na plataforma</p>
             <form>
-                <label>Usuario de acesso:</label>
+                <label>Email de acesso:</label>
                 <input type='text' placeholder='usuario@email.com' />
 
                 <label>Senha:</label>

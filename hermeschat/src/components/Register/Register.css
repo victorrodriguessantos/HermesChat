@@ -12,8 +12,8 @@
 }
   
 .login-modal {
-    background: #fff;
-    color: #333;
+    background: #334155;
+    color: aliceblue;
     width: 400px;
     max-width: 90%;
     padding: 2rem;
@@ -28,13 +28,28 @@
     border: none;
     border-radius: 8px;
     background: #007bff;
-    color: #fff;
+    color: aliceblue;
     cursor: pointer;
     transition: background 0.2s ease;
 }
   
 .login-modal button:hover {
     background: #0056b3;
+}
+
+.login-modal input {
+    display: flex;
+    background-color: #475569;
+    height: 300px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: aliceblue !important;
+    font: bold;
+    font-size: larger;
+    outline: none;
+    padding: 8px;
 }
   
 @keyframes fadeIn {
