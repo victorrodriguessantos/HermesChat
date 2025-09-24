@@ -21,11 +21,7 @@
 }
 
 .container-login h1 {
-    padding: 10px;
-}
-
-.container-login p {
-    padding: 10px;
+    padding: 2px;
 }
 
 .container-login input {
@@ -66,11 +62,8 @@
     font-size: larger;
 }
 
-.container-login a {
+.container-login .btn-register {
     text-decoration: none;
     color: inherit; 
-}
-
-.container-login a:hover {
-    color: #b38022; 
+    height: 30px;
 }
