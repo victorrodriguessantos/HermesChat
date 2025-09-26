@@ -3,7 +3,7 @@
     font-family: system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', sans-serif;
 }
 
-.container-login {
+.containerLogin {
     width: 700px;
     height: 500px;
     background-color: #334155;
@@ -15,16 +15,16 @@
     margin-top: 100px;
 }
 
-.container-login form {
+.containerLogin form {
     display: grid;
     width: 60%;
 }
 
-.container-login h1 {
+.containerLogin h1 {
     padding: 2px;
 }
 
-.container-login input {
+.containerLogin input {
     display: flex;
     background-color: #475569;
     height: 30px;
@@ -39,7 +39,7 @@
     padding: 8px;
 }
 
-.container-login button {
+.containerLogin button {
     margin-top: 30px;
     text-align: center;
     height: 40px;
@@ -52,17 +52,11 @@
     border:none;
 }
 
-.container-login button:hover {
+.containerLogin button:hover {
     background-color: #0056b3;
 }
 
-.container-login span{
-    color: #ffa600;
-    font: bold;
-    font-size: larger;
-}
-
-.container-login .btn-register {
+.containerLogin .btn-register {
     text-decoration: none;
     color: inherit; 
     height: 30px;

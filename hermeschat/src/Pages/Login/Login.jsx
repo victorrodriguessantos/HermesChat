@@ -1,12 +1,12 @@
 import Modal from '../../components/Register/Register'
 import { useState } from 'react'
-import './Login.css'
+import styles from './Login.module.css'
 
 function Login() {
     const [open, setOpen] = useState(false);
     
     return (
-        <div className='container-login'>
+        <div className={styles.containerLogin}>
             <br />
             <h1>Hermes Chat</h1>
             <p>Faça o login para entrar na plataforma</p>
